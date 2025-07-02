@@ -1,17 +1,22 @@
 # Phase 1 Project 
 
 
-### Business Problem
+## Overview
 
-Your company is expanding in to new industries to diversify its portfolio. Specifically, they are interested in purchasing and operating airplanes for commercial and private enterprises, but do not know anything about the potential risks of aircraft. You are charged with determining which aircraft are the lowest risk for the company to start this new business endeavor. You must then translate your findings into actionable insights that the head of the new aviation division can use to help decide which aircraft to purchase.
+The company is expanding in to new industries to diversify its portfolio. Specifically, they are interested in purchasing and operating airplanes for commercial and private enterprises, but do not know anything about the potential risks of aircraft. I am tasked with determining which aircraft are the lowest risk for the company to start this new business endeavor. 
 
-### The Data
+## Business Understanding
 
-In the `data` folder is a [dataset](https://www.kaggle.com/datasets/khsamaha/aviation-accident-database-synopses) from the National Transportation Safety Board that includes aviation accident data from 1962 to 2023 about civil aviation accidents and selected incidents in the United States and international waters.
+The company is interested in purchasing and operating airplanes for commercial and private enterprises.
+The company lacks actionable insights that can help decide which aircraft to purchase. Below are key business questions that I used to solve and understand the problem.
+*Finding the aircraft model with the least number of accidents
+*Know the number of flights the aircraft makes
+*Finding out the severity of the accidents
+*It is up to you to decide what data to use, how to deal with missing values, how to aggregate the data, and how to visualize it in an interactive dashboard.
 
-It is up to you to decide what data to use, how to deal with missing values, how to aggregate the data, and how to visualize it in an interactive dashboard.
+## Business Understanding and Analysis
 
-### Key Points
+The source of the data that we'll be using in this project is from the National Transportation Safety Board that includes aviation accident data from 1962 to 2023 about civil aviation accidents and selected incidents in the United States and international waters, in the folder called `data` in [dataset](https://www.kaggle.com/datasets/khsamaha/aviation-accident-database-synopses)
 
 * **Your analysis should yield three concrete business recommendations.** The key idea behind dealing with missing values, aggregating and visualizaing data is to help your organization make data driven decisions. You will relate your findings to business intelligence by making recommendations for how the business should move forward with the new aviation opportunity.
 
